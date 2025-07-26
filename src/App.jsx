@@ -7,7 +7,7 @@ import '@fortawesome/fontawesome-free/js/all.min.js'
 import About from './Components/About/About'
 import Portfolio from './Components/Portfolio/Portfolio'
 import Contact from './Components/Contact/Contact'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router-dom'
 import Layout from './Components/Layout/Layout'
 import Home from './Components/Home/Home'
 
@@ -15,7 +15,7 @@ import Home from './Components/Home/Home'
 function App() {
   const [count, setCount] = useState(0)
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   [
     {
       path: "",
