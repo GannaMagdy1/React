@@ -1,0 +1,163 @@
+.active{
+  background-color: #1ABC9C !important;
+  border-radius: 10px;
+}
+.navbar .navbar-brand{
+  font-size: 30px;
+}
+.About{
+  height: 500px;
+}
+.form .input{
+  border: 0;
+  border-bottom: 1px solid gray;
+}
+.form .input :focus-within{
+ border-bottom: 1px solid gray;
+}
+.btn {
+  margin-left: 275px;
+
+}
+#btnId,.About,.Home{
+  background-color: #1ABC9C;
+}
+.navbar,.FooterContactDetails{
+  background-color: #45586b;
+}
+.Footer{
+  background-color: #3f4042;
+}
+.Portfolio h1,.Contact h1{
+  color: #45586b;
+}
+.About,.Portfolio,.Contact ,.Home{
+  position: relative;
+}
+.Home .star::before{
+  content:"" ;
+  top: 460px;
+  right: 475px;
+  width:85px ;
+  height:4px ;
+  background-color:white ;
+  position: absolute;
+}
+.Home .star::after{
+  content:"" ;
+  top: 460px;
+  left: 475px;
+  width:85px ;
+  height:4px ;
+  background-color:white ;
+  position: absolute;
+}
+.About .star::after {
+  content:"" ;
+  top: 232px;
+  left: 475px;
+  width:85px ;
+  height:4px ;
+  background-color:white ;
+  position: absolute;
+}
+.About .star::before {
+  content:"" ;
+  top: 232px;
+  right: 475px;
+  width:85px ;
+  height:4px ;
+  background-color:white ;
+  position: absolute;
+}
+.Portfolio .star,.Contact .star {
+  color:  #45586b;
+}
+.Portfolio .star::after{
+  content:"" ;
+  top: 120px;
+  left: 475px;
+  width:85px ;
+  height:4px ;
+  background-color:  #45586b;
+  position: absolute;
+}
+.Portfolio .star::before{
+  content:"" ;
+  top: 120px;
+  right: 475px;
+  width:85px ;
+  height:4px ;
+  background-color:  #45586b;;
+  position: absolute;
+}
+
+.Contact .star::after{
+  content:"" ;
+  top: 120px;
+  left: 475px;
+  width:85px ;
+  height:4px ;
+  background-color:  #45586b;
+  position: absolute;
+}
+.Contact .star::before{
+  content:"" ;
+  top: 120px;
+  right: 475px;
+  width:85px ;
+  height:4px ;
+  background-color:  #45586b;;
+  position: absolute;
+}
+.FooterContactDetails .socialIcons .facebook,.twitter,.linkedin,.globe{
+border: 1px solid white;
+padding: 1px;
+border-radius: 50%;
+font-size: 20px;
+}
+.Portfolio .col-md-4{
+  position: relative;
+} 
+ .Portfolio .col-md-4:hover .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 325px ;
+  height: 235px;
+  border-radius: 5px;
+  background-color: rgba(26, 188, 156,0.9);
+  opacity: 1;
+   pointer-events: none; 
+}
+.Portfolio .col-md-4 .overlay{
+  opacity: 0;
+  cursor: pointer;
+   transition: opacity 1s;
+}
+.Portfolio .col-md-4 .overlay .plus {
+  font-size: 100px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.Portfolio .col-md-4:hover .overlay .plus{
+  opacity: 1;
+}
+.imgPopUp{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+}
+
+
+ 
+
+
+
